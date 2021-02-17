@@ -23,7 +23,7 @@ while bilet != 0:
 
 
 if x >= 3:
-    cost = cost * 0.9
+    cost = int(cost * 0.9)
     print("Цена с учетом скидки:", cost)
 else:
     print("Цена:", cost)
